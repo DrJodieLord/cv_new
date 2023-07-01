@@ -1,0 +1,188 @@
+---
+title: "Jodie Lord's CV"
+author: Jodie Lord
+date: "`r Sys.Date()`"
+params:
+  pdf_mode:
+    value: true
+output:
+  pagedown::html_resume:
+    css: ['dd_cv.css', 'resume']
+    self_contained: true
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+
+
+
+library(magrittr) 
+source("cv_printing_functions.r")
+
+# Read in all data and initialize a CV printer object
+CV <- create_CV_object(
+  data_location = "data/",  
+  pdf_mode = params$pdf_mode
+)
+
+```
+
+
+```{r}
+# When in pdf export mode the little dots are unaligned, so fix that with some conditional CSS.
+if(params$pdf_mode) {
+    cat("
+<style>
+:root{
+  --decorator-outer-offset-left: -6.5px;
+}
+</style>")
+}
+```
+
+
+Aside
+================================================================================
+
+
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_contact_info()
+```
+
+
+Key skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+##NEED TO ADD TO PRINTING FUNCTIONS .R
+CV %>% print_key_bars()
+```
+
+
+
+Coding languages {#programming}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_skill_bars()
+```
+
+
+Hobbies
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_text_block('hobbies')
+```
+
+
+
+
+Main
+================================================================================
+
+Jodie Lord {#title}
+--------------------------------------------------------------------------------
+
+```{r}
+# Note the special double pipe so we modify the CV object in place
+CV %<>% print_text_block("intro") 
+```
+
+
+Selected Industry Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+
+```{r}
+CV %<>% print_section('industry_positions')
+```
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('education')
+```
+<br>
+<br>
+<br>
+
+
+Academic and Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('research_positions')
+```
+
+
+<!-- These breaks just force a new page so section doesnt get cut off -->
+<br>
+<br>
+<br>
+
+
+Data challenges {data-icon=code}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('challenges')
+```
+
+<br>
+<br>
+
+---
+#Awards {data-icon=trophy}
+#--------------------------------------------------------------------------------
+
+
+```{r}
+#CV %<>% print_section('awards')
+```
+
+#<br>
+#<br>
+#<br>
+--- 
+
+Selected Publications {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('academic_articles')
+```
+
+<br>
+<br>
+A full list of academic publications are available on my [Google Scholar](https://scholar.google.co.uk/citations?hl=en&user=NeZqCwkAAAAJ) profile
+
+<br>
+<br>
+
+::: aside
+
+{#disclaimer}
+--------------------------------------------------------------------------------
+
+CV made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+
+Code available at [github.com/jodielord/cv](https://github.com/jodielord/cv).
+
+Last updated on `r Sys.Date()`.
+:::
+
+
+```{r}
+#CV %<>% print_links()
+```
+
+
