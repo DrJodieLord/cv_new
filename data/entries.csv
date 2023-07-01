@@ -1,0 +1,52 @@
+﻿Where in your CV this entry belongs,Main title of the entry,Location the entry occured,Primary institution affiliation for entry,Start date of entry (year),"End year of entry. Set to ""current"" if entry is still ongoing.","Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title ""description_{4,5,..}""",,,A filter variable that is used to decide if entry is in the smaller resume.
+section,title,loc,institution,start,end,description_1,description_2,description_3,in_resume
+education,"PhD, Biostatistics and health informatics",King's College London,,2018,2022,Thesis: Integrative metabolomics for the prediction and causal understanding of Alzheimer's disease,"Awards: 
+<ul>
+<li>Early career investigator programme award – World Congress of Psychiatric Genetics, 2019.</li>
+<li>Best academic poster – KCL Neuroscience Symposium, 2019.</li> 
+<li>Alzheimer’s Research UK travel grant, 2020.</li>
+</ul>",,TRUE
+education,"MSc, Statistical modelling and health informatics (Distinction, 88%)",King's College London,,2019,2021,Thesis (grade: 93%): Application of exploratory mediation for the identification of biological mediators within highly correlated data,1 year partial scholarship awarded from IoPPN Biostatistics.,"Module grades:
+<ul>
+<li>Statistical Programming: 96%</li>
+<li>Maching Learning: 98%</li> 
+<li>Prediction Modelling: 88%</li> 
+<li>Multilevel and Longitudinal Modelling: 83%</li>
+<li>Causal Modelling: 76%</li> 
+<li>Structural Equation Modelling: 70%</li>
+</ul>",TRUE
+education,"MSc, Neuroscience (Distinction, 78%)",King's College London,,2017,2018,Thesis (grade: 89%): Disentangling Anorexia Nervosa using Genetics,Graduated within the top 2% of a cohort of >100 students.,,TRUE
+education,"BSc, Psychology (1st class)",University of Exeter,,2010,2013,"Thesis (grade: 73%): Assessing the link between sports concussion and cognitive impairment in a cohort of university
+rugby players ","83% in both 1st year and 2nd year Statistics, 79% in 1st year Research Methods, 80% in 2nd year Biological Psychology, 77% in 2nd year Cognitive Psychology, 76% in 3rd year Brain Imaging",,TRUE
+research_positions,Research Associate & Statistician,King's College London,"London, UK",2021,2022,Working collaboratively with the multidisciplinary research team to advise on and conduct analytical components of clinical trials.,,,TRUE
+research_positions,Research Assistant,Oxford University in collab. with King's College London,"London, UK",2018,2018,Collaborating with a team of clinical psychologists and fellow research assistants to undertake an experimental protocol aimed at utilising cognitive models to reduce social anxiety in high school students.,,,TRUE
+research_positions,Research Intern,University of Exeter,"Exeter, UK",2011,2013,Planning and assistance at London based neuroscience conferences. Topics focussed on neuroplasticity following early life trauma and the links between traumatic brain injury and offending behaviour.,Involved in the co-creation of a website designed to inform the public on neuroscience issues.,Data analysis support (SPSS).,TRUE
+industry_positions,Product Manager,Our Future Health UK,"London, UK",2022,,"As the Product Manager for the Researcher Experience team, I have lead the strategy, end-to-end development and launch of our public facing researcher website, secure researcher account area, and  have worked internally with the Access Governance team to build an admin system for the secure onboarding of researchers into our Trusted Research Environment. ","Using my connections across the researcher community, I sourced a pool of academic researchers from institutions across the globe to form a user research panel which have been integral for the allowance of rapid prototyping and user feedback cycles, enabling continual optimisation of products being built across the researcher product suite. ","As a core part of my role, I work with key stakeholders across the business to set and maintain the product vision, strategy, and roadmap, and work with the cross-functional team to translate this into a backlog of actionable deliverables with clear user outcomes.",TRUE
+industry_positions,Product Owner,AIMIA,"London, UK",2016,2017,"Working as the Product Owner for AIMIA's new data insights platform, the primary focus of this role was to produce a suite of meaningful and configurable visual reporting components that could be used by retail enterprise clients to understand the shopping behaviour of their customer base and take targetted action to improve sales and consumer engagement.","I led the end-to-end developmental lifecyle, from conception through to launch, working closely with external stakeholders to understand their challenges and problems that required solving, and defining and prioritising scope within the cross functional team.","I was responsible for co-ordinating and aligning multiple teams, both onshore and offshore to ensure that key client goals were delivered on time and, where necessary, make appropriate priority calls to achieve this.",TRUE
+industry_positions,Business Analyst / Product Consultant,Financial Express,"London, UK",2015,2016,"Within this role I was responsible for conceptualising and driving the development of FE's configurable datafeeds product, working closely with the head of product to ensure that planned scope met the requirements of both the business and prosepective financial platform clients.",,,TRUE
+research_positions,Graduate Teaching Assistant,King's College London,"London, UK",2018,2021,"Module lead for the BSc Psychology ‘Big Data Analytics in Python’ mini-module. Teaching materials are openly accessible via my [github
+](https://github.com/jodielord/python_teaching_material). Here, I was responsible for producing and delivering all course
+content and assessment material.","Teaching assistant in research methods modules for BSc Psychology students, [R 
+workshops](https://jodielord.netlify.app/Intro_R.pdf) and journal clubs for MSc Neuroscience students, and prediction modelling modules for MSc Statistical Modelling students",,TRUE
+industry_positions,Account Manager,Financial Express,"London, UK",2013,2015,"Managing the relationship and retention of > 50 institutional financial client accounts based across London, Ireland and Channel Islands. Clients included; Aviva, HSBC, Fidelity and Standard Life.",,,TRUE
+awards,Biostatistics Scholarship - £1000,"Department of Biostatistics and Health Informatics, King's College London",,2019,2020,,,,FALSE
+awards,PhD studentship - fully funded,Van geest endowment fund,,2018,2021,,,,FALSE
+awards,Early Career Investigator Programme Award,World Congress of Psychiatric Genetics,,,2019,,,,FALSE
+awards,Best academic poster,King's College London Neuroscience Symposium,,,2019,,,,FALSE
+awards,Travel grant - £1000,Alzheimer's Research UK,,,2020,,,,FALSE
+challenges,"[DPUK Datathon
+](https://twitter.com/JodieLord5/status/1332261618596638721)",Dementias Platform UK,Remote,,2020,A two week datathon in which attendees are randomly assigned into groups and together tasked with wrangling and interrogating large scale data related to dementia and cognitive aging.,Project produced: Predicting latent cognitive trajectories in the English Longitudinal Study of Ageing using SEM and cluster-based alhorithms.,,TRUE
+challenges,"[TidyTuesday weekly social data challenge
+](https://github.com/jodielord/TidyTuesdays)",R for Data Science,Remote,2020,2022,A weekly social data challenge conducted using R and the tidyverse.,A number of participations across both 2020 and 2022,"Visual and code for latest visualisation produced  available at: [github.com/jodielord/TidyTuesdays/2022/2022-Feb-
+dog_breeds](https://github.com/jodielord/TidyTuesdays/tree/master/2022/2022-Feb-dog_breeds)",TRUE
+academic_articles,"[Mendelian randomization identifies blood metabolites previously linked to midlife cognition as causal candidates in Alzheimer’ disease
+](https://www.pnas.org/content/118/16/e2009808118)",Proceedings of the National Academy of Sciences,,,2021,"<u>Lord, J.</u>, Jermy, B., Green, R., Wong, A., Xu, J., Legido-Quigley, C., ... & Proitsi, P.",,,TRUE
+academic_articles,"[Disentangling independent and mediated causal relationships between blood metabolites, cognitive factors, and Alzheimer's Disease
+](https://www.sciencedirect.com/science/article/pii/S2667174321000872?via%3Dihub)",Biological Psychiatry: GOS,,,2022,"<u>Lord, J.</u>, Green, R., Choi S.W., Hubel, C., Aarsland, D., ... & Proitsi, P.",,,TRUE
+academic_articles,"[A genome-wide association study of plasma phosphorylated tau181
+](https://pubmed.ncbi.nlm.nih.gov/34119372/)",Neurobiology of Aging,,,2021,"<u>Lord, J.</u>, Zettergren, A., Ashton, N., Karikari, T.K., N. J., Benedet, Simren, J., … Proitsi, P.",,,TRUE
+academic_articles,"[Integrated lipidomics and proteomics network analysis highlights lipid and immunity pathways associated with Alzheimer’s
+disease
+](https://translationalneurodegeneration.biomedcentral.com/articles/10.1186/s40035-020-00215-0)",Translational Neurodegeneration,,,2020,"Xu, J., Bankov, G., Kim, M., Wretlind, A., <u>Lord, J.</u>, Green, R., ... & Legido-Quigley, C.",,,
+academic_articles,"[Metabolic underpinnings of late midlife cognitive function 
+](https://academic.oup.com/braincomms/advance-article/doi/10.1093/braincomms/fcab291/6460934?searchresult=1)",Brain Communications,,,2021,"Green, B., <u>Lord, J.</u>, Xu, J., Maddock, J., Kim, M., Dobson, R., ... & Proitsi, P.",,,
