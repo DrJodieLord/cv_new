@@ -130,30 +130,6 @@ CV %<>% print_section('research_positions')
 <br>
 
 
-Data challenges {data-icon=code}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('challenges')
-```
-
-<br>
-<br>
-
----
-#Awards {data-icon=trophy}
-#--------------------------------------------------------------------------------
-
-
-```{r}
-#CV %<>% print_section('awards')
-```
-
-#<br>
-#<br>
-#<br>
---- 
-
 Selected Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
